@@ -1,4 +1,4 @@
-package adfscc;
+package adufs;
 
 import java.io.FileWriter;
 import java.io.IOException;
