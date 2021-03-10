@@ -40,10 +40,10 @@ public class ClassPredictor {
 	
 	public static void main(String[] args) throws Exception{
 	
-		DataSource source = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_Training_FS3.arff");
-		DataSource source2 = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_No_Class_Test_FS3.arff");
-		DataSource source3 = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_Anomaly_Class_Test_FS3.arff");
-		DataSource source4 = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_Test_FS3.arff");
+		DataSource source = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_Training.arff");
+		DataSource source2 = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_No_Class_Test.arff");
+		DataSource source3 = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_Anomaly_Class_Test.arff");
+		DataSource source4 = new DataSource("D:\\feature-selection\\security-dataset\\For_Supervised_Detection\\2021\\FS3\\UNSW_NB15_Randomized_Test.arff");
 		DATASET_NAME = "UNSW_NB15";	classificationModel = "NaiveBayes";	formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");	startDate = new Date();
 		
 		startDate = new Date();
