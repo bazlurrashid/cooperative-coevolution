@@ -1,4 +1,4 @@
-package adfscc;
+package adufs;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
